@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="Welcome"
+        android:textSize="40sp"
+        android:layout_marginLeft="45dp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Nice Day"
+        android:textSize="20sp"
+        android:layout_marginLeft="53dp"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:background="@drawable/field"
+        android:layout_marginTop="75dp"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:hint="Email"
+        android:id="@+id/logEmail"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <EditText
+        android:background="@drawable/field"
+        android:layout_marginTop="28dp"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:hint="Password"
+        android:id="@+id/logPassword"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+    <Button
+        android:background="@drawable/btn_all"
+        android:layout_marginTop="30dp"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="normal"
+        android:text="login"
+        android:id="@+id/btnLogin"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:layout_marginTop="280dp"
+        android:text="Don't Have Account? Register!"
+        android:layout_marginLeft="24dp"
+        android:id="@+id/btnToRegister"/>
+
+</LinearLayout>

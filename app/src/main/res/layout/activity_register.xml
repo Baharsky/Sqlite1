@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="Register"
+        android:textSize="40sp"
+        android:layout_marginLeft="45dp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For New Acoount"
+        android:textSize="18sp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:background="@drawable/field"
+        android:layout_marginTop="75dp"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:hint="Email"
+        android:id="@+id/regEmail"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:background="@drawable/field"
+        android:layout_marginTop="28dp"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:hint="Password"
+        android:id="@+id/regPassword"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <Button
+        android:background="@drawable/btn_all"
+        android:layout_marginTop="30dp"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textStyle="normal"
+        android:id="@+id/btnRegister"/>
+
+    <EditText
+        android:layout_marginTop="260dp"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Validate Password"
+        android:id="@+id/regId"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:visibility="invisible"/>
+</LinearLayout>
